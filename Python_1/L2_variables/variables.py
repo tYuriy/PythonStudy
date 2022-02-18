@@ -41,15 +41,13 @@ print(c1.upper())
 print(c1.lower())
 
 # numbers
-a = 7
-b = 3
+a = 4
+b = 1 / 2
 print(a + b)
 print(a - b)
 print(a * b)
-print(a / b)
-print(a // b)
-print(a % b)
-print(abs(b - a))
-print(a ** b)
-
-
+print(a / b)  # division
+print(a // b)  # hole number by division
+print(a % b)  # the rest from division
+print(abs(b - a))  # module, absolute value
+print(a ** b)  # extent of a number
