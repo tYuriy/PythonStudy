@@ -51,3 +51,6 @@ print(a // b)  # hole number by division
 print(a % b)  # the rest from division
 print(abs(b - a))  # module, absolute value
 print(a ** b)  # extent of a number
+
+a, b, c = 1, 2, 3
+print(f'a = {a}, b = {b}, c = {c}')
